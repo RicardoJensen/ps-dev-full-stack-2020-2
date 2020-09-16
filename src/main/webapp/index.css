@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #0b131b;
+    padding-top: 2cm;
+}
+
+main {
+    font-family: 'Montserrat',sans-serif;
+    color: #A6ACAF;
+    font-size: 18px;
+    margin: 5px 10px 0;
+    line-height: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+p#text {
+    font-weight: bold;
+}
+
+input#input-value {
+    width: 12%;
+    height: 29px;
+    border-radius: 8px;
+    border: 2px solid #5D6D7E;
+}
+
+::placeholder {
+    color: #0b131b;
+
+}
+
+input#button {
+    margin-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    border: 2px solid #5D6D7E;
+    font-weight: bold;
+}
+
+var {
+    font-style: normal;
+}
+
+p#result-text {
+    word-break: break-all;
+    padding-right: 151px;
+    padding-left: 151px;
+    min-width: fit-content;
+    font-size: 20px;
+}
